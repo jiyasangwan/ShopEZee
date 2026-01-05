@@ -81,31 +81,34 @@ Ensure the following are installed on your system:
 
 ---
 
-
+---
 ## 🔽 Clone the Repository
 
+```
 git clone https://github.com/jiyasangwan/ShopEZee.git
 cd ShopEZee
+```
 
 ⚙️ Backend Setup
 1️⃣ Navigate to the server directory
-cd server
+```cd server```
 
 2️⃣ Install backend dependencies
-npm install
+```npm install```
 
 3️⃣ Create .env file
 
 Create a .env file inside the server folder and add:
 
+```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-
+```
 
 Note: The .env file is ignored by Git for security reasons.
 
 4️⃣ Start the backend server
-npm start
+```npm start```
 
 
 The backend server will run on:
@@ -114,13 +117,13 @@ http://localhost:5000
 ```
 🎨 Frontend Setup
 1️⃣ Navigate to the client directory
-cd ../client
+```cd ../client```
 
 2️⃣ Install frontend dependencies
-npm install
+```npm install```
 
 3️⃣ Start the frontend application
-npm run dev
+```npm run dev```
 
 
 The frontend will be available at:
