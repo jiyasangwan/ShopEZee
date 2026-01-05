@@ -68,7 +68,7 @@ Example:
 ```env
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-
+```
 # Local Setup Guide – ShopEZ 🛠️
 
 This document explains how to run the ShopEZ application locally for development and testing purposes.
