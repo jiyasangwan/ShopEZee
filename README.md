@@ -79,17 +79,17 @@ Ensure the following are installed on your system:
 - npm (Node Package Manager)
 - MongoDB (local instance or MongoDB Atlas)
 
----
 
 ---
-## 🔽 Clone the Repository
+🔽 Clone the Repository
 
 ```
 git clone https://github.com/jiyasangwan/ShopEZee.git
 cd ShopEZee
 ```
-
+---
 ⚙️ Backend Setup
+
 1️⃣ Navigate to the server directory
 ```cd server```
 
@@ -115,7 +115,9 @@ The backend server will run on:
 ```
 http://localhost:5000
 ```
+---
 🎨 Frontend Setup
+
 1️⃣ Navigate to the client directory
 ```cd ../client```
 
@@ -129,6 +131,8 @@ http://localhost:5000
 The frontend will be available at:
 
 ```http://localhost:5173```
+
+---
 
 🔗 Connecting Frontend and Backend
 
