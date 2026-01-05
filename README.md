@@ -71,8 +71,6 @@ JWT_SECRET=your_jwt_secret
 ```
 # Local Setup Guide – ShopEZ 🛠️
 
-This document explains how to run the ShopEZ application locally for development and testing purposes.
-
 ---
 
 ## 📋 Prerequisites
@@ -84,10 +82,8 @@ Ensure the following are installed on your system:
 ---
 
 
----
-
 ## 🔽 Clone the Repository
-```bash
+
 git clone https://github.com/jiyasangwan/ShopEZee.git
 cd ShopEZee
 
@@ -113,9 +109,9 @@ npm start
 
 
 The backend server will run on:
-
+```
 http://localhost:5000
-
+```
 🎨 Frontend Setup
 1️⃣ Navigate to the client directory
 cd ../client
@@ -129,11 +125,11 @@ npm run dev
 
 The frontend will be available at:
 
-http://localhost:5173
+```http://localhost:5173```
 
 🔗 Connecting Frontend and Backend
 
 Ensure that the API base URL in the frontend is pointing to:
 
-http://localhost:5000
+```http://localhost:5000```
 
